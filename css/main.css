@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('myfont.woff2') format('woff2'),
+          url('myfont.woff') format('woff');
+  }
+
+  body {
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    font-size: small;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px 10px 10px 10px;
+  }
+
+  h1, h2 {
+      color: #4A72E0;
+      text-decoration: underline;
+  }
+
+  h1 {
+      font-size: 150%;
+  }
+
+  h2 {
+      font-size: 130%;
+  }
+
+
+
